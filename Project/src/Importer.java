@@ -10,7 +10,7 @@ import java.util.Set;
 
 import javax.swing.JOptionPane;
 /*
- * Tutaj ma byæ import danych z pliku do ArrayListy
+ * Tutaj ma byÃ¦ import danych z pliku do ArrayListy
  */
 public class Importer {
 	
@@ -33,9 +33,9 @@ public class Importer {
 				}
 		}catch (NullPointerException e) {
 			dupa = true;
-			System.out.println("Ni chuja! Podaj plik txt z list¹!");
+			System.out.println("Ni chuja! Podaj plik txt z listÂ¹!");
 			JOptionPane.showMessageDialog
-			(null, "Ni chuja! Podaj plik txt z list¹!","B³¹d wyszukiwania!", JOptionPane.ERROR_MESSAGE);
+			(null, "Ni chuja! Podaj plik txt z listÂ¹!","BÂ³Â¹d wyszukiwania!", JOptionPane.ERROR_MESSAGE);
 		}
 
 		catch (IOException e) {
