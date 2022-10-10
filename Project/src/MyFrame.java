@@ -50,7 +50,7 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 	
 	MyFrame(){
 		
-		this.setTitle("Wyjebista wyszukiwarka plików w folderze");
+		this.setTitle("Wyborna wyszukiwarka plików w folderze");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setSize(665, 340);
 		this.setResizable(false);
@@ -126,7 +126,8 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 	            + "<p><font size=-1>- Mo¿na usun¹æ duplikaty wersów dla dodanej listy</font></p>"
 	            + "<p><font size=-1>- Wyszukiwarka mo¿e dodawaæ przecinek na koñcu ka¿dego wersu</font></p>"
 	            + "</html>");
-		label1.setFont(new Font("Chuj",Font.ITALIC,20));
+		
+		label1.setFont(new Font("Czcionka1",Font.ITALIC,20));
 		label1.setBackground(Color.gray);
 		label1.setForeground(new Color(0x000000));
 		label1.setBounds(10, 0, 280, 290);
@@ -164,7 +165,7 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 		checkBox.setText("Zakoñcz wers przecinkiem");
 		checkBox.setBounds(120,80,220,25);
 		checkBox.setFocusable(false);
-		checkBox.setFont(new Font("Chuj",Font.ITALIC,15));
+		checkBox.setFont(new Font("Czcionka1",Font.ITALIC,15));
 		checkBox.setBackground(Color.black);
 		checkBox.setForeground(new Color(0xffffff));
 		checkBox.setSelected(true);
@@ -172,7 +173,7 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 		comboBox = new JComboBox(ext);
 		comboBox.addActionListener(this);
 		comboBox.setBounds(250,115,90,25);
-		comboBox.setFont(new Font("Chuj",Font.ITALIC,15));
+		comboBox.setFont(new Font("Czcionka1",Font.ITALIC,15));
 		comboBox.setBackground(Color.black);
 		comboBox.setForeground(new Color(0xffffff));
 		comboBox.setEditable(true);
@@ -183,7 +184,7 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 		textField.setBackground(Color.black);
 		textField.setCaretColor(Color.white);
 		textField.setText("Tu skopiuj œcie¿kê wyszukiwania");
-		textField.setFont(new Font("Chuj",Font.ITALIC,15));
+		textField.setFont(new Font("Czcionka1",Font.ITALIC,15));
 		textField.addMouseListener(this);
 		
 		textField1 = new JTextField();
@@ -191,7 +192,7 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 		textField1.setForeground(new Color(0xffffff));
 		textField1.setBackground(Color.black);
 		textField1.setCaretColor(Color.white);
-		textField1.setFont(new Font("Chuj",Font.ITALIC,15));
+		textField1.setFont(new Font("Czcionka1",Font.ITALIC,15));
 		textField1.addMouseListener(this);
 		
 		panel1.add(label1);
