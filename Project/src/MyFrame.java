@@ -112,7 +112,7 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 		
 		label1 = new JLabel();
 		label1.setText("<html>"
-	            + "<h3>Oto wyjebista wyszukiwarka plików.</h3>"
+	            + "<h3>Oto wyborna wyszukiwarka plików.</h3>"
 	            + "<p><font size=-1>1. Skopiuj pe³n¹ œcie¿kê dla wyszukiwania.</p>"
 	            + "<p><font size=-1>2. Wciœnij przycisk Dodaj.</p>"
 	            + "<p><font size=-1>3. Przegl¹daj celem dodania listy txt z has³ami</p>"
