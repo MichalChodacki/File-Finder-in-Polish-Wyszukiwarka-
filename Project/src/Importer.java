@@ -18,13 +18,13 @@ public class Importer {
 	String dir;
 	File path;
 	String fp;
-	Boolean dupa = false;
+	Boolean insertMe = false;
 	FileWriter write;
 	PrintWriter outputFile;
 	
 	final ArrayList<String> lista = new ArrayList<>();
 	
-	public void debil (String dir){
+	public void reader (String dir){
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(dir))) {
 			
@@ -32,10 +32,10 @@ public class Importer {
 					lista.add(br.readLine());
 				}
 		}catch (NullPointerException e) {
-			dupa = true;
-			System.out.println("Ni chuja! Podaj plik txt z list¹!");
+			insertMe = true;
+			System.out.println("B³¹d! Podaj plik txt z list¹!");
 			JOptionPane.showMessageDialog
-			(null, "Ni chuja! Podaj plik txt z list¹!","B³¹d wyszukiwania!", JOptionPane.ERROR_MESSAGE);
+			(null, "B³¹d! Podaj plik txt z list¹!","B³¹d wyszukiwania!", JOptionPane.ERROR_MESSAGE);
 		}
 
 		catch (IOException e) {
@@ -70,8 +70,8 @@ public class Importer {
 	public int dej() {
 		return lista.size();
 	}
-	public final Boolean getDupa() {
-		return dupa;
+	public final Boolean getInsertMe() {
+		return insertMe;
 	}	
 	
 }

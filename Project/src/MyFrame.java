@@ -237,9 +237,9 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 				
 			} else {
 			Importer importList = new Importer ();
-			importList.debil(str1);	
+			importList.reader(str1);	
 			
-			if(importList.getDupa()==false) {
+			if(importList.getInsertMe()==false) {
 				fc2 = new JFileChooser();
 				int resp2 = fc2.showSaveDialog(null);
 				
@@ -261,7 +261,7 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 		if(e.getSource()==btn1){
 			
 			imp = new Importer ();
-			imp.debil(str1);	
+			imp.reader(str1);	
 			imp.dubel();
 		}
 		if(e.getSource()==saver) {
