@@ -67,7 +67,7 @@ public class Importer {
 		// TODO Auto-generated method stub
 		return lista;
 	}
-	public int dej() {
+	public int gimme() {
 		return lista.size();
 	}
 	public final Boolean getInsertMe() {

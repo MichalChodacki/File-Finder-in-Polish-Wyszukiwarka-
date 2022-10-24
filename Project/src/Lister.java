@@ -19,7 +19,7 @@ public class Lister {
 	File[] files;
 	File fp;
 	
-	public void baran(ArrayList<String> lista, String dir, File fp, String przecinek, Object ext) {
+	public void dataHolder(ArrayList<String> lista, String dir, File fp, String przecinek, Object ext) {
 		
 		ext1 = (String) ext;
 		

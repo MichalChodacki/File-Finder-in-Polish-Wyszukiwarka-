@@ -114,7 +114,7 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 		label1.setText("<html>"
 	            + "<h3>Oto wyborna wyszukiwarka plików.</h3>"
 	            + "<p><font size=-1>1. Skopiuj pe³n¹ œcie¿kê dla wyszukiwania.</p>"
-	            + "<p><font size=-1>2. Wciœnij przycisk Dodaj.</p>"
+	            + "<p><font size=-1>2. Wciœnij przycisk dodaj.</p>"
 	            + "<p><font size=-1>3. Przegl¹daj celem dodania listy txt z has³ami</p>"
 	            + "<p><font size=-1>4. Uruchom wyszukwarkê przyciskiem start.</p>"
 	            + "<p><font size=-1>5. Zapisz plik tekstowy z wynikami wyszukiwania.</font></p>"
@@ -251,8 +251,8 @@ public class MyFrame extends JFrame implements ActionListener , MouseListener{
 			}else {
 				przecinek ="";
 			}
-			Lister dawaj = new Lister();
-			dawaj.baran(importList.getLista(),gettextField(),fp2,przecinek,comboBox.getSelectedItem());
+			Lister bringer = new Lister();
+			bringer.dataHolder(importList.getLista(),gettextField(),fp2,przecinek,comboBox.getSelectedItem());
 			System.out.println(gettextField());
 				}	
 			}
